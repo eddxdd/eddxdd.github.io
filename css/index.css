@@ -647,6 +647,9 @@ body {
   overflow-x: hidden;
   text-rendering: geometricPrecision; }
 
+#sky {
+  opacity: 0.8; }
+
 * :after :before {
   box-sizing: border-box; }
 
