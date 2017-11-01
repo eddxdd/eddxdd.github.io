@@ -480,14 +480,14 @@ footer {
     top: 20rem; }
 
   .hero--catchBlock {
-    font-size: 17px !important; } }
-@media only screen and (min-width: 850px) {
+    font-size: 1.05rem !important; } }
+@media only screen and (min-width: 800px) {
   .hero--i {
     top: 35%;
     width: 100%; }
 
   .hero--i-name {
-    font-size: 7rem; } }
+    font-size: 7rem !important; } }
 @media only screen and (min-width: 320px) {
   .hero--content {
     max-width: 100%;
@@ -508,7 +508,7 @@ footer {
   .hero--catchBlock {
     max-width: 100%;
     padding: .1rem;
-    font-size: 1.3rem;
+    font-size: 1rem !important;
     line-height: 1.6;
     text-align: center;
     letter-spacing: 2px; } }
@@ -516,7 +516,7 @@ footer {
   .hero--catchBlock {
     min-width: 700px;
     margin: 0 auto;
-    font-size: 1.5rem;
+    font-size: 1.2rem !important;
     line-height: 1.7; } }
 @media only screen and (min-width: 850px) {
   .hero--catchBlock {
