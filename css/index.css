@@ -384,7 +384,7 @@
         font-size: 2rem; } }
 @media only screen and (max-width: 1024px) {
   #portfolio .wrapper {
-    width: 100%; }
+    width: 95%; }
 
   .content {
     padding: 2rem; }
