@@ -1,67 +1,47 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eduardo Lemos</title>
-    <meta name="description" content="Hey! I'm Eduardo, and I build websites efficiently with the awesome newest technologies.">
-    <meta name="keywords" content="Web developer, Frontend Web Developer, london frontend developer, web designer, javascript developer. html developer, html css javascript developer">
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/aos.css">
-    <script src="./js/snow.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduardo Lemos</title>
+  <meta name="description" content="Hey! I'm Eduardo, and I build websites efficiently with the awesome newest technologies there are.">
+  <meta name="keywords" content="Web developer, Frontend Web Developer, london frontend developer, web designer, javascript developer. html developer, html css javascript developer">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Raleway+Dots" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/aos.css">
+  <script src="./js/snow.js"></script>
+</head>
 
-<!--Body/Header Start-->
-
-<body>
-  <header id="main-header">
-    <span class="nav--mobile-menu"></span>
-    <nav class="nav">
-      <div class="wrapper">
-        <h1 id="slogan" data-aos="fade-in" data-aos-duration="2850" data-aos-delay="200"><u><span class="highlight">Web</span> Developer</u></h1>
-        <ul class="nav--main li-push-right" data-aos="fade-in" data-aos-duration="2850" data-aos-delay="200">
-          <li class="nav--main-link border-bottom-isActive" data-id="#home"><a href="#home">HOME</a></li>
-          <li class="nav--main-link" data-id="#about"><a href="#about">ABOUT ME</a></li>
-          <li class="nav--main-link" data-id="#skill"><a href="#skill">SKILLS</a></li>
-          <li class="nav--main-link" data-id="#portfolio"><a href="#portfolio">PORTFOLIO</a></li>
-          <li class="nav--main-link btnlink" id="download"><a class="btn btn--default" href="edlemos.pdf" target="_blank"><i class="fa fa-download li-margin-right"></i>RESUME</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <!-- End Header -->
-
-  <!-- Home -->
-  <section id="home" class="page-section">
-    <div class="hero">
-      <div class="hero--bg">
+<body id="body">
+  <header>
+    <div class="wrapper">
+      <div id="header">
+  			<img id="bg" src="./img/background0.jpg" alt="">
         <canvas id="sky"></canvas>
-        <div class="wrapper">
-          <div class="hero--i">
-            <h2 class="hero--i-name">Eduardo Lemos</h2>
-            <div class="social">
-              <a href="https://github.com/eddxdd" target="_blank"><i class="social--icon fa fa-github"></i></a>
-            </div>
-            <div class="hero--content">
-              <h3 class="hero--catchBlock">I am Eduardo,<br> a front-end Web Developer in Ontario.<br>
-              My goal is to create <strong>simple</strong>, yet <strong>beautiful</strong> and <strong>engaging</strong> usable experiences for the web.</h3>
-              <div class="hero--contact">
-                <a class="btn btn--default btn--contact" data-aos="fade-down" data-aos-duration="1550" data-aos-delay="700" data-aos-once="true" data-aos-anchor-placement="top-bottom" href="mailto:eddu1930@gmail.com">CONTACT ME</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        <img id="bg-logo" src="./img/logo.png" alt="">
+        <!--<img class="pro-icon" src="./img/icons/border.png" alt="">-->
+  		</div>
+  		<nav id="content">
+  			<div id="navbar">
+  				<div id="logo"><a href="#body">ed<span class="logo-line">dxdd</span></a></div>
+  				<ul>
+  					<li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="edlemos.pdf" target="_blank">Resume</a></li>
+            <li><a href="mailto:eddu1930@gmail.com"><i class="social--icon fa fa-envelope-o" style="font-size:25px"></i></a></li>
+            <li><a href="https://github.com/eddxdd" target="_blank"><i class="social--icon fa fa-github" style="font-size:30px"></i></a></li>
+            <li><a href="https://twitter.com/edd_xdd" target="_blank"><i class="social--icon fa fa-twitter" style="font-size:30px"></i></a></li>
+  				</ul>
+  			</div>
+  		</nav>
     </div>
-  </section>
-  <!-- End Home -->
+  </header>
 
-  <!-- About Me -->
-
+  <!-- About -->
   <section id="about" class="page-section">
     <div class="wrapper">
       <div class="card">
@@ -70,29 +50,27 @@
         </div>
         <div class="card--textContent">
           <div class="card--text justified" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">
-            My name is Eduardo Lemos. I’m a self-taught web developer. I build beautiful, usable web Applications for my clients. I specialize in front-end development, user experience using modern tools in the build process. I tasked myself to find a passion and that is how i got into Web Development. My goal is to work fully as a web developer in a team of amazing people who share the same passion, <a href="https://github.com/eddxdd" target="_blank"> and work daily to fulfil it <i class="fa fa-github"></i></a>. If you are interested, <a href="mailto:eddu1930@gmail.com">Say Hello <i class="fa fa-envelope-o"></i></a>
+            My name is Eduardo Lemos. I’m a self-taught web developer. My goal is to build beautiful, usable web Applications using best practices and the latest W3C web standards. I specialize in front-end development, user experience using modern tools in the build process. I tasked myself to find a passion and that is how i got into Web Development. I aim to work fully as a web developer in a team of amazing people who share the same passion, <a href="https://github.com/eddxdd" target="_blank"> and work daily to fulfil it <i class="fa fa-github"></i></a>. I am ready to start working with you. <a href="mailto:eddu1930@gmail.com">Say Hello <i class="fa fa-envelope-o"></i></a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact Me -->
+  <!-- Skills -->
   <section id="skill" class="page-section">
     <div class="wrapper">
       <div class="skill">
-        <h2 class="section-title">SKILLS</h2>
-        <div class="skill--blocks">
+        <h2 class="section-title" data-aos="flip-up" data-aos-duration="1750" data-aos-delay="200">SKILLS</h2>
+        <div class="skill--blocks" data-aos="fade" data-aos-duration="1450" data-aos-delay="200">
           <div class="skill--block">
             <img class="skill--svg img-icon" src="./img/icons/pc.svg">
             <h3 class="skill--set">Front-end Web development</h3>
             <h4 class="skill--description">
               <ul class="skill--description-list">
-                <li>HTML5, CSS3</li>
-                <li>JavaScript, JQuery</li>
-                <li>UX/UI, API, Canvas</li>
-                <li>Photoshop</li>
-                <li>Git</li>
+                <li>HTML5, CSS3(Sass), Javascript</li>
+                <li>ReactJS, Redux</li>
+                <li>APIs</li>
               </ul>
             </h4>
           </div>
@@ -102,7 +80,7 @@
             <h4 class="skill--description">
               <ul class="skill--description-list">
                 <li>I build responsive websites, making web pages look good on all devices (desktops, tablets, and phones).</li>
-                <li>I utilize CSS and media queries to resize, hide, shrink, enlarge, or move contents to render all devices.</li>
+                <li>I utilize CSS and media queries to resize, hide, shrink,<br> enlarge, or move contents to render all devices.</li>
               </ul>
             </h4>
           </div>
@@ -111,82 +89,108 @@
             <h3 class="skill--set">Build Tool</h3>
             <h4 class="skill--description">
               <ul class="skill--description-list">
-                <li>Vim/Atom</li>
-                <li>Google Chrome Dev Tools</li>
-                <li>Wordpress, GitHub, SCSS</li>
-                <li>Linux, Windows, Mac</li>
+                <li>npm, Node.js</li>
+                <li>Firefox, Chrome, IE</li>
+                <li>Atom</li>
+                <li>Photoshop, Git</li>
               </ul>
             </h4>
           </div>
-        </div> <!-- skill block closing tag -->
-      </div><!-- skill container closing tag -->
-    </div>
-  </section>
-
-<!-- End Contact -->
-
-<!-- Portfolio -->
-  <section id="portfolio" class="page-section">
-    <h2 class="section-title">PROJECTS</h2>
-    <div class="container" data-aos="fade-up" data-aos-duration="600">
-      <div class="showcase">
-        <img src="./img/soon.png" alt="soon">
-      </div>
-      <div class="content">
-        <h1 class="title-color">Projects</h1>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ut labore et dolore."</p>
-      </div>
-    </div>
-
-    <div class="container" data-aos="fade-up" data-aos-duration="600">
-      <div class="showcase">
-        <img src="./img/soon.png" alt="soon">
-      </div>
-      <div class="content">
-        <h1 class="title-color">Projects</h1>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ut labore et dolore."</p>
-      </div>
-    </div>
-
-    <div class="container" data-aos="fade-up" data-aos-duration="600">
-      <div class="showcase">
-        <img src="./img/soon.png" alt="soon">
-      </div>
-      <div class="content">
-        <h1 class="title-color">Projects</h1>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ut labore et dolore."</p>
-      </div>
-    </div>
-
-    <div class="container" data-aos="fade-up" data-aos-duration="600">
-      <div class="showcase">
-        <img src="./img/soon.png" alt="soon">
-      </div>
-      <div class="content">
-        <h1 class="title-color">Projects</h1>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ut labore et dolore."</p>
-      </div>
-    </div>
-    <br>
-  </section>
-  <!-- End Portfolio -->
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer--bg">
-      <div class="wrapper">
-        <div class="footer--catchphrase">
-          Developed and designed by
         </div>
-        <div class="footer--name">Eduardo Lemos</div>
       </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+    <section id="portfolio" class="page-section">
+
+      <img class="bg" src="./img/overlay0.png" alt="">
+      <br><br><br><br>
+      <h2 class="section-title" data-aos="flip-up" data-aos-duration="1750" data-aos-delay="200">PROJECTS</h2>
+      <div class="wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+        <div class="showcase">
+          <img src="./img/projects/restaurante.jpg" alt="soon">
+        </div>
+        <div class="content">
+          <h1 class="title-color">Restaurante</h1>
+          <div class="buttons">
+            <a class="btn btn-default" href="https://github.com/eddxdd/Restaurante" target="_blank">Code</a>
+            <a class="btn btn-default" href="https://eddxdd.github.io/Restaurante/" target="_blank">Demo</a>
+          </div>
+          <p>A Restaurant/Pizzeria model created using <u>HTML5, CSS3(SCSS), JavaScript</u> techniques. It is fully responsive and also includes a call to <u>Google Maps API</u> which can be customized to locate the closest store to the user. <i>Restaurante</i> was developed with the idea of a simple design and interactive menus.</p>
+        </div>
+      </div>
+
+
+      <div class="wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+        <div class="showcase">
+          <img src="./img/projects/calculator.jpg" alt="soon">
+        </div>
+        <div class="content">
+          <h1 class="title-color">Calculator</h1>
+          <div class="buttons">
+            <a class="btn btn-default" href="https://github.com/eddxdd/Calculator" target="_blank">Code</a>
+            <a class="btn btn-default" href="https://eddxdd.github.io/Calculator/" target="_blank">Demo</a>
+          </div>
+          <p>A calculator created using <u>JavaScript</u>. Writing requirements, iterating, storing values. I tasked myself with this project to further improve my understandment of JavaScript. It helped me build a much better foundation.</p>
+        </div>
+      </div>
+
+      <img class="bg2" src="./img/overlay1.png" alt="">
+      <div class="wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+        <div class="showcase">
+          <img src="./img/projects/weather.jpg" alt="soon">
+        </div>
+        <div class="content">
+          <h1 class="title-color">Weather App</h1>
+          <div class="buttons">
+            <a class="btn btn-default" href="https://github.com/eddxdd/Weather-App" target="_blank">Code</a>
+            <a class="btn btn-default" href="https://eddxdd.github.io/Weather-App/" target="_blank">Demo</a>
+          </div>
+          <p>This Weather App was also another project of mine. It ultilizes <u>JavaScript, JQuery, APIs/Ajax/JSONP</u> in order to develop an app which calls the weather forecast of the location the user inputs. With some JS understanding I also included data for pressure, humidity, wind, etc.</p>
+        </div>
+      </div>
+
+      <div class="wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+        <div class="showcase">
+          <img src="./img/projects/chart.jpg" alt="soon">
+        </div>
+        <div class="content">
+          <h1 class="title-color">Chart</h1>
+          <div class="buttons">
+            <a class="btn btn-default" href="https://github.com/eddxdd/Chart" target="_blank">Code</a>
+            <a class="btn btn-default" href="https://eddxdd.github.io/Chart/" target="_blank">Demo</a>
+          </div>
+          <p>A simple chart displaying the approximate population of towns in Ontario. This project ultilized <u>JavaScript, Chart.JS</u> to store data on each town population and display it back to the user. <i>Chart</i> can be configured into a number of different chart types.</p>
+        </div>
+      </div>
+      <br>
+    </section>
+
+    <!-- Contact -->
+    <img class="bg3" src="./img/background1.jpg" alt="">
+    <section id="contact">
+      <div class="wrapper">
+        <div class="message"><h1>Thank you,
+          <br>I am always working on new projects and looking for new work. <br>If you'd like to contact me please reach at:</h1></div><br>
+          <a href="https://github.com/eddxdd" target="_blank"><i class="social--icon fa fa-github" style="font-size:5rem"></i></a> <a href="https://twitter.com/edd_xdd" target="_blank"><i class="social--icon fa fa-twitter" style="font-size:5rem;margin:0 15px"></i></a>
+
+        <div class="contact"><h1><a href="mailto:eddu1930@gmail.com"><i data-aos="fade" data-aos-duration="1800" data-aos-delay="300">eddu1930@gmail.com</i></a></h1>
+        </div>
+      </div>
+    </section>
+
+  <!-- Footer-->
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer--catchphrase">Developed and designed by</div>
+      <div class="footer--name">Eduardo Lemos 2017</div>
     </div>
   </footer>
-
-  <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="./js/aos.js"></script>
-  <script>AOS.init();</script>
-  <script src="./js/menu.js"></script>
-  </body>
+</body>
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./js/menu.js"></script>
+<script src="./js/aos.js"></script>
+<script>AOS.init();</script>
 </html>
