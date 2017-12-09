@@ -383,6 +383,9 @@
       #contact .wrapper .contact h1 a {
         font-size: 2rem; } }
 @media only screen and (max-width: 1024px) {
+  .content {
+    padding: 2rem; }
+
   #contact {
     overflow: hidden; }
     #contact .wrapper .contact h1 {
