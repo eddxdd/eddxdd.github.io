@@ -33,7 +33,7 @@ window.onload = function() {
     for(var i = 0; i < maxFlakes; i++) {
       var f = flakes[i];
       context.moveTo(f.x, f.y);
-      context.arc(f.x, f.y, f.r, 0, Math.PI*2, true);
+      context.arc(f.x, f.y, f.r, 0, Math.PI*1.5, true);
     }
     context.fill();
     moveFlakes();
@@ -44,13 +44,13 @@ window.onload = function() {
 
   function moveFlakes() {
 
-    angle += 0.01;
+    angle += 0.02;
 
     for(var i = 0; i < maxFlakes; i++) {
       var f = flakes[i];  // Stores current flake
 
       // Here update the X and Y coordinates of the snowflakes
-      f.y += Math.pow(f.d, 2) + 1;  // How fast it falls
+      f.y += Math.pow(f.d, 1) + 1;  // How fast it falls
       f.x += Math.sin(angle) * 2; // Angle which it falls
 
       // If the snowflake reaches the bottom, send a new one to the top
