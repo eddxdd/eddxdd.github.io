@@ -1,9 +1,10 @@
-var header = document.getElementById("header");
-var navBar = document.getElementById("navbar");
-var bg = document.getElementById("bg");
+// Variables
+let header = document.getElementById("header");
+let navBar = document.getElementById("navbar");
+let bg = document.getElementById("bg");
 
-var navbarHeight = navBar.offsetHeight;
-var headerHeight = header.offsetHeight;
+let navbarHeight = navBar.offsetHeight;
+let headerHeight = header.offsetHeight;
 
 header.style.height = screen.height-navbarHeight;
 
@@ -21,6 +22,7 @@ function initParallax(){
 	bg.style.top = -(window.pageYOffset/10)+"px";
 }
 
+// On scroll
 window.addEventListener("scroll", initParallax);
 
 $(document).ready(function() {
